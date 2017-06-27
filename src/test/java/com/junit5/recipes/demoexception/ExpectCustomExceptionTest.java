@@ -16,7 +16,7 @@ public class ExpectCustomExceptionTest {
 
 	@Test
 	@DisplayName("Test assert exception")
-	void myFirstTest(TestInfo testInfo) {
+	void testCustomException(TestInfo testInfo) {
 		final ExpectCustomException expectEx = new ExpectCustomException();
 		
 		 InvalidParameterCountException exception = assertThrows(InvalidParameterCountException.class, () -> {

@@ -14,7 +14,7 @@ public class ExpectGeneralExceptionTest {
 
 	@Test
 	@DisplayName("Test assert NullPointerException")
-	void myFirstTest(TestInfo testInfo) {
+	void testGeneralException(TestInfo testInfo) {
 		final ExpectGeneralException generalEx = new ExpectGeneralException();
 		
 		 NullPointerException exception = assertThrows(NullPointerException.class, () -> {
