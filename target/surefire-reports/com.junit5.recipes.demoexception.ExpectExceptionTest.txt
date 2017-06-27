@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.junit5.recipes.demoexception.ExpectExceptionTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec <<< FAILURE! - in com.junit5.recipes.demoexception.ExpectExceptionTest
-myFirstTest(TestInfo)  Time elapsed: 0.04 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Invalid parametercount: expected=3, passed=0> but was: <Invalid parametercount: expected=3, passed=2>
-	at com.junit5.recipes.demoexception.ExpectExceptionTest.myFirstTest(ExpectExceptionTest.java:29)
-

@@ -2,7 +2,7 @@ package com.junit5.recipes.demoexception;
 
 import com.junit5.recipes.exceptionutils.InvalidParameterCountException;
 
-public class ExpectException {
+public class ExpectCustomException {
 
 	public String constructErrorMessage(String... args) throws InvalidParameterCountException {
 		if(args.length!=3) {
